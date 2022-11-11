@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Muscle">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="108dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Bicep usage:"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine4"
+        android:layout_width="108dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Tricep usage:"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="#000004"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="MuscleApp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <Button
+        android:id="@+id/Recalibrate"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:text="Recalibrate device"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="309dp"
+        android:layout_height="452dp"
+        app:srcCompat="@drawable/screenshot_2022_11_11_145624"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="108dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Forearm usage:"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#000000"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="444dp"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:text="Step 3: Advance to the Muscle detector page and view real time results"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="443dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="Step 2: Calibrate your device on the calibration page"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="#000004"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="MuscleApp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="How the App works:"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="443dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="Step 1: Connect to IoT device using Bluetooth"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="433dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Click Advance below to start Bluetooth connection"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:text="Advance"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
