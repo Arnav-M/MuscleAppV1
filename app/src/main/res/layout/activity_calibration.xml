@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".Calibration">
 
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="577dp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="87dp"
@@ -29,7 +37,7 @@
         tools:layout_editor_absoluteY="444dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Next"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:text="Next"
